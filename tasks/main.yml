@@ -1,0 +1,5 @@
+---
+# tasks file for ansible-role-php-code-sniffer
+- name: Install Pear PHP_CodeSniffer
+  pear: name=PHP_CodeSniffer state=present
+  become: yes
